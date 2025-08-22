@@ -45,9 +45,7 @@ func (rn *NameGenerator) Generate() string {
 // NewNameGenerator ...
 func NewNameGenerator(seed int64) Generator {
 	nameGenerator := &NameGenerator{
-		random:     rand.New(rand.New(rand.NewSource(99))),
-		adjectives: &Adjectives,
-		nouns:      &Nouns,
+		random: rand.New(rand.New(rand.NewSource(99))),
 	}
 	nameGenerator.random.Seed(seed)
 

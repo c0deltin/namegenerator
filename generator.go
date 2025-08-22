@@ -34,8 +34,8 @@ type NameGenerator struct {
 
 // Generate ...
 func (rn *NameGenerator) Generate() string {
-	randomAdjective := ADJECTIVES[rn.random.Intn(len(ADJECTIVES))]
-	randomNoun := NOUNS[rn.random.Intn(len(NOUNS))]
+	randomAdjective := Adjectives[rn.random.Intn(len(Adjectives))]
+	randomNoun := Nouns[rn.random.Intn(len(Nouns))]
 
 	randomName := fmt.Sprintf("%v-%v", randomAdjective, randomNoun)
 

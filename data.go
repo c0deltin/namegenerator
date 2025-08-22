@@ -18,23 +18,42 @@
 package namegenerator
 
 var (
-	// ADJECTIVES ...
-	ADJECTIVES = []string{"autumn", "hidden", "bitter", "misty", "silent", "empty", "dry", "dark", "summer",
-		"icy", "delicate", "quiet", "white", "cool", "spring", "winter", "patient",
-		"twilight", "dawn", "crimson", "wispy", "weathered", "blue", "billowing",
-		"broken", "cold", "damp", "falling", "frosty", "green", "long", "late", "lingering",
-		"bold", "little", "morning", "muddy", "old", "red", "rough", "still", "small",
-		"sparkling", "throbbing", "shy", "wandering", "withered", "wild", "black",
-		"young", "holy", "solitary", "fragrant", "aged", "snowy", "proud", "floral",
-		"restless", "divine", "polished", "ancient", "purple", "lively", "nameless"}
+	// Adjectives ...
+	Adjectives = []string{
+		"fresh", "ripe", "rotten", "chopped",
+		"sliced", "juicy", "sweet", "sour",
+		"bitter", "crisp", "tender", "raw",
+		"steamed", "grilled", "boiled", "baked",
+		"dried", "frozen", "cooked", "organic",
+		"peeled", "mashed", "whole", "spicy",
+		"blended", "candied", "pickled", "fermented",
+		"seasoned", "unripe", "green", "yellow",
+		"red", "purple", "golden", "bruised",
+		"tiny", "giant", "seedless",
+		"juiced", "caramelized", "stuffed", "marinated",
+		"charred", "shredded", "sprouted", "tough",
+		"overripe", "underripe", "wild", "farmgrown",
+		"exotic", "crispy", "soft", "flavorful", "plain",
+		"nutritious", "spoiled", "savory",
+	}
 
-	// NOUNS ...
-	NOUNS = []string{"waterfall", "river", "breeze", "moon", "rain", "wind", "sea", "morning",
-		"snow", "lake", "sunset", "pine", "shadow", "leaf", "dawn", "glitter", "forest",
-		"hill", "cloud", "meadow", "sun", "glade", "bird", "brook", "butterfly",
-		"bush", "dew", "dust", "field", "fire", "flower", "firefly", "feather", "grass",
-		"haze", "mountain", "night", "pond", "darkness", "snowflake", "silence",
-		"sound", "sky", "shape", "surf", "thunder", "violet", "water", "wildflower",
-		"wave", "water", "resonance", "sun", "wood", "dream", "cherry", "tree", "fog",
-		"frost", "voice", "paper", "frog", "smoke", "star"}
+	// Nouns ...
+	Nouns = []string{
+		"apple", "carrot", "banana", "broccoli",
+		"grape", "onion", "peach", "spinach",
+		"pear", "potato", "mango", "tomato",
+		"plum", "lettuce", "strawberry", "cucumber",
+		"kiwi", "pumpkin", "cherry", "radish",
+		"orange", "cabbage", "blueberry", "zucchini",
+		"pineapple", "beetroot", "watermelon", "cauliflower",
+		"lemon", "eggplant", "raspberry", "celery",
+		"apricot", "asparagus", "blackberry", "turnip",
+		"cantaloupe", "garlic", "papaya", "ginger",
+		"nectarine", "artichoke", "cranberry", "kale",
+		"guava", "pea", "pomegranate", "endive",
+		"dragonfruit", "leek", "fig", "parsnip",
+		"passionfruit", "chili", "lime", "okra",
+		"persimmon", "chard", "tangerine", "mustard",
+		"mulberry", "yam", "durian", "bokchoy",
+	}
 )

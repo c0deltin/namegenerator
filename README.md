@@ -3,25 +3,16 @@
 A random name generator (for projects, servers, cluster nodes, etc ...)
 implementation in Golang.
 
-## Badges
-
-[![License][License-Image]][License-URL]
-[![CircleCI Status][CircleCI-Image]][CircleCI-URL]
-[![Coverage Report][Coverage-Image]][Coverage-URL]
-[![Go Report Card][GoReportCard-Image]][GoReportCard-URL]
-[![CII Best Practices][CII-Image]][CII-URL]
-[![GoDoc][GoDoc-Image]][GoDoc-URL]
-
 ## Install
 
 ```bash
-go get github.com/goombaio/namegenerator
+go get github.com/c0deltin/namegenerator
 ```
 
 You can also update an already installed version:
 
 ```bash
-go get -u github.com/goombaio/namegenerator
+go get -u github.com/c0deltin/namegenerator
 ```
 
 ## Example of use
@@ -30,7 +21,7 @@ go get -u github.com/goombaio/namegenerator
 package main
 
 import (
-    "github.com/goombaio/namegenerator"
+    "github.com/c0deltin/namegenerator"
 )
 
 func main() {
